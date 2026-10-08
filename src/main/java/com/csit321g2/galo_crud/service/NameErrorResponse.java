@@ -1,4 +1,4 @@
-package com.csit321g2.firstspringbootapp.service;
+package com.csit321g2.galo_crud.service;
 
 public class NameErrorResponse {
     private int status;

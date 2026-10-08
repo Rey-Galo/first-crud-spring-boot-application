@@ -1,4 +1,4 @@
-package com.csit321g2.firstspringbootapp.controller;
+package com.csit321g2.galo_crud.controller;
 
 import java.util.List;
 
@@ -13,17 +13,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.csit321g2.firstspringbootapp.entity.ItemEntity;
-import com.csit321g2.firstspringbootapp.service.ItemService;
+import com.csit321g2.galo_crud.entity.ItemEntity;
+import com.csit321g2.galo_crud.service.ItemService;
 
 @RestController
 @RequestMapping("/item/api")
 public class ItemController {
-    @Autowired
-    ItemService iserv;
+    
+    @Autowired 
+    ItemService iserv;    
 
     public ItemController() {
-        // TODO Auto-generated constructor stub
+       
     }
 
     @GetMapping("/printAuthor")

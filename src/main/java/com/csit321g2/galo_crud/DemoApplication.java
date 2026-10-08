@@ -1,11 +1,9 @@
-package com.csit321g2.firstspringbootapp;
+package com.csit321g2.galo_crud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.persistence.autoconfigure.EntityScan;
 
 @SpringBootApplication
-@EntityScan("com.csit321g2.firstspringbootapp")
 public class DemoApplication {
 
 	public static void main(String[] args) {

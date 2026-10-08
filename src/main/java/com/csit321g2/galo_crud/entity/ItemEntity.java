@@ -1,4 +1,4 @@
-package com.csit321g2.firstspringbootapp.entity;
+package com.csit321g2.galo_crud.entity;
 
 import jakarta.persistence.*;
 
